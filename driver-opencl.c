@@ -1303,10 +1303,10 @@ static
 struct opencl_kernel_interface kernel_interfaces[] = {
 	{NULL},
 #ifdef USE_SHA256D
-	{"poclbm",  queue_poclbm_kernel },
-	{"phatk",   queue_phatk_kernel  },
+        {"phatk",   queue_phatk_kernel  },
+	/*{"poclbm",  queue_poclbm_kernel },
 	{"diakgcn", queue_diakgcn_kernel},
-	{"diablo",  queue_diablo_kernel },
+	{"diablo",  queue_diablo_kernel },*/
 #endif
 #ifdef USE_OPENCL_FULLHEADER
 	{"fullheader", queue_fullheader_kernel },
