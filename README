@@ -2,15 +2,15 @@ BFGMiner:
 St. Barbara's Faithfully Glorified Mining Initiative Naturally Exceeding Rivals
 or Basically a Freaking Good Miner
 
-This is a multi-threaded, multi-blockchain, multi-pool ASIC, FPGA, GPU and CPU
-miner with dynamic clocking, monitoring, and fanspeed support for bitcoin.
+This code is a modification of bfgminer for bitcoin that enables mining blocks for BlockStamp blockchain (BST).
+For now it is possible to mine BST blocks using CPU and GPU with phatk kernel.
+
+Below are simple examples for CPU and GPU mining.
+./bfgminer -o http://localhost:<port> -u <usr> -p <passwd> --generate-to <BST addr> --no-longpoll --no-stratum --coinbase-sig "<coinbase message>" -S cpu:auto
+./bfgminer -o http://localhost:<port> -u <usr> -p <passwd> --generate-to <BST addr> --no-longpoll --no-stratum --coinbase-sig "<coinbase message>" -S opencl:auto --set OCL:kernel=phatk
 
 This code is provided entirely free of charge by the programmer in his spare
-time so donations would be greatly appreciated. Please consider donating to the
-address below.
-
-Luke-Jr <luke-jr+bfgminer@utopios.org>
-1QATWksNFGeUJCWBrN4g6hGM178Lovm7Wh
+time so donations would be greatly appreciated.
 
 DOWNLOADS:
 
