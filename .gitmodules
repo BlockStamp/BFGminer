@@ -1,7 +1,7 @@
 [submodule "libblkmaker"]
 	path = libblkmaker
 	url = git://github.com/bitcoin/libblkmaker.git
-[submodule "ccan"]
+[submodule "ccan-upstream"]
 	path = ccan-upstream
 	url = git://git.ozlabs.org/~ccan/ccan
 [submodule "libbase58"]
